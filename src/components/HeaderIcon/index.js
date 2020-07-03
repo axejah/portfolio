@@ -23,9 +23,7 @@ const HeaderIcon = ({ accountInfo, mediaName, preHref, icon }) => {
           />
           <span
             style={{
-              visibility: "hidden",
-              marginRight: "-50px",
-              position: "absolute",
+              display: "none",
             }}
           >
             {mediaName}
