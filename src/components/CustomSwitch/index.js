@@ -35,6 +35,12 @@ class CustomSwitch extends Component {
   render() {
     return (
       <div className="custom-switch">
+        <label
+          htmlFor="switch"
+          style={{ visibility: "hidden", marginRight: "-50px" }}
+        >
+          theme
+        </label>
         <Switch
           onChange={this.handleToggle}
           checked={this.state.checked}
@@ -51,12 +57,6 @@ class CustomSwitch extends Component {
           width={40}
           onHandleColor="#333"
         />
-        <label
-          htmlFor="switch"
-          style={{ visibility: "hidden", marginRight: "-50px" }}
-        >
-          theme
-        </label>
       </div>
     )
   }
