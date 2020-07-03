@@ -19,7 +19,9 @@ const HeaderIcon = ({ accountInfo, mediaName, preHref, icon }) => {
           <FontAwesomeIcon
             className={`icon-${mediaName} icon-fa`}
             icon={icon}
+            aria-hidden="true"
           />
+          <span style={{ display: "none" }}>{mediaName}</span>
         </a>
       )}
     </>

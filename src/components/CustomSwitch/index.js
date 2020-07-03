@@ -40,6 +40,7 @@ class CustomSwitch extends Component {
           checked={this.state.checked}
           offColor="#bbb"
           onColor="#4a4a4a"
+          aria-checked={this.state.checked}
           uncheckedIcon={
             <FontAwesomeIcon className="icon-moon" icon={faMoon} />
           }

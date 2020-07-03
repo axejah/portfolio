@@ -138,7 +138,7 @@ const StyledTagsVertical = styled.div`
     justify-content: flex-start;
     padding: 0.5rem;
     &-inner {
-      width: 120px;
+      width: 250px;
       overflow-x: auto;
     }
   }
