@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import ArrowDown from "../../../../_assets/icons/arrow-down.svg"
 import Button from "../../Button"
 import { setThemeVars } from "../../../util/theme-helper"
-import { theme } from "../../Shared/styles-global"
+import { theme } from "../../shared/styles-global"
 
 let sizeType = "rem"
 
@@ -53,7 +53,7 @@ Collapsable.propTypes = {
 const StyledCollapsableTitleWrap = styled.div`
   display: flex;
   align-items: center;
-  font-size: ${(props) => props.titleSize};
+  font-size: ${props => props.titleSize};
   margin: 1rem 0;
   button {
     color: ${() => setThemeVars(theme.fontColorLight, theme.fontColorDark)};
@@ -62,10 +62,10 @@ const StyledCollapsableTitleWrap = styled.div`
 
 const StyledIconWrapper = styled.span`
   svg {
-    width: ${(props) => props.titleSize};
-    height: ${(props) => props.titleSize};
+    width: ${props => props.titleSize};
+    height: ${props => props.titleSize};
     margin-right: 0.3rem;
-    transform: ${(props) =>
+    transform: ${props =>
       props.rotate === "true" ? "rotate(0deg)" : "rotate(-90deg)"};
     transition: transform 250ms;
     fill: ${() => setThemeVars(theme.fontColorLight, theme.fontColorDark)};
