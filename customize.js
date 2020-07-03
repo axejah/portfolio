@@ -61,7 +61,7 @@ const config = {
   showTimeToRead: false, // Shows time to read for each post in main page
   breakCodeLines: false, // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/profile.jpg`, // Favicon
-  gaTrackingId: ``, // Your google analytics tracking id--i.e. UA-*****
+  gaTrackingId: `UA-171589552-1`, // Your google analytics tracking id--i.e. UA-*****
   googleAdSenseId: ``, // Your google AdSense client id--i.e. ca-pub-****
 }
 
