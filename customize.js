@@ -15,7 +15,7 @@ const config = {
   ========================================= */
   author: `Kevin Soester`, // Name shows on profile
   profileDescription:
-    "Former e-Sporter. Likes whisky. Fan of Big Peat and anything Blackadder. I speak HTML, CSS and JavaScript. Fluent in Dutch and English.", // Shows under author name
+    "Junior Web Developer. I speak HTML, CSS and JavaScript. ❤ Whisky. Fan of Big Peat and Blackadder. Former e-Sporter.", // Shows under author name
   profileImageName: `profile.jpg`, // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Zaandam, the Netherlands", // Location under profileDescription. "" --> disabled
   footerLink: "/", // Link to page when you click footer name
