@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-import { theme } from "../../Shared/styles-global"
+import { theme } from "../../shared/styles-global"
 import { setThemeVars } from "../../../util/theme-helper"
 // Icons
 import Warning from "../../../../_assets/icons/warning.svg"

@@ -19,7 +19,7 @@ import {
   UtterancesComments,
 } from "../../Comments"
 import ToggleMode from "../../Layout/ToggleMode"
-import { theme } from "../../Shared/styles-global"
+import { theme } from "../../shared/styles-global"
 import LinkEdgePosts from "../../LinkEdgePosts"
 import ShareButtons from "../../ShareButtons"
 import ChevronRight from "../../../../_assets/icons/chevron-right.svg"
