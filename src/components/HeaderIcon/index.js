@@ -21,7 +21,15 @@ const HeaderIcon = ({ accountInfo, mediaName, preHref, icon }) => {
             icon={icon}
             aria-hidden="true"
           />
-          <span style={{ display: "none" }}>{mediaName}</span>
+          <span
+            style={{
+              visibility: "hidden",
+              marginRight: "-50px",
+              position: "absolute",
+            }}
+          >
+            {mediaName}
+          </span>
         </a>
       )}
     </>

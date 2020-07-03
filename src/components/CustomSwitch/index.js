@@ -41,6 +41,7 @@ class CustomSwitch extends Component {
           offColor="#bbb"
           onColor="#4a4a4a"
           aria-checked={this.state.checked}
+          id="switch"
           uncheckedIcon={
             <FontAwesomeIcon className="icon-moon" icon={faMoon} />
           }
@@ -50,6 +51,12 @@ class CustomSwitch extends Component {
           width={40}
           onHandleColor="#333"
         />
+        <label
+          htmlFor="switch"
+          style={{ visibility: "hidden", marginRight: "-50px" }}
+        >
+          theme
+        </label>
       </div>
     )
   }
