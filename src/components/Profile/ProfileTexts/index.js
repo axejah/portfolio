@@ -4,6 +4,7 @@ import MediaLinks from "../../MediaLinks"
 import { profileDescription } from "../../../../customize"
 import ProfileLocation from "../ProfileLocation"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 // Renders in different layout when home is specified
 const ProfileTexts = ({ home }) => {
@@ -12,16 +13,15 @@ const ProfileTexts = ({ home }) => {
       {home ? (
         <StyledProfileTextsHome className="profile-texts">
           <AboutLink />
-          <p>{profileDescription}</p>
-          <ProfileLocation />
+          <p>{profileDescription}</p> <Link to="/about">Read more ➡</Link>
           <MediaLinks />
+          <ProfileLocation />
         </StyledProfileTextsHome>
       ) : (
         <StyledProfileTexts className="profile-texts">
           <h4>WRITTEN BY</h4>
           <AboutLink />
           <p>{profileDescription}</p>
-          <ProfileLocation />
           <MediaLinks />
         </StyledProfileTexts>
       )}

@@ -21,15 +21,6 @@ import configStyles from "../../../customize-styles"
 const Header = ({ siteTitle, showTitle, isPostTemplate }) => {
   return (
     <StyledMainHeader className="main-header">
-      {/* Google AdSense */}
-      {config.googleAdSenseId && config.googleAdSenseId !== "" && (
-        <script
-          data-ad-client={config.googleAdSenseId}
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        ></script>
-      )}
-
       {isPostTemplate && config.useScrollIndicator && <ProgressBar />}
 
       <StyledMainHeaderInner className="main-header-inner">

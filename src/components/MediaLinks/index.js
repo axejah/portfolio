@@ -54,7 +54,7 @@ const StyledMediaLinks = styled.div`
   flex-wrap: wrap;
   a {
     color: steelblue;
-    margin: 0 0.2rem;
+    margin: 0.5rem 0.2rem 0rem 0.2rem;
     font-size: 0.8rem;
   }
 `
